@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99D27473-7B55-47D9-B5E0-27155DD745EC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>McKelviSurgery.frmSplash</StartupObject>
+    <RootNamespace>McKelviSurgery</RootNamespace>
+    <AssemblyName>McKelviSurgery</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>McKelviSurgery.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>McKelviSurgery.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="app.Designer.vb">
+      <DependentUpon>app.vb</DependentUpon>
+    </Compile>
+    <Compile Include="app.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppointmentClass.vb" />
+    <Compile Include="BookingClass.vb" />
+    <Compile Include="ConsultationClass.vb" />
+    <Compile Include="cus.Designer.vb">
+      <DependentUpon>cus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeClass.vb" />
+    <Compile Include="EmployeeView.Designer.vb">
+      <DependentUpon>EmployeeView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSearchCust.Designer.vb">
+      <DependentUpon>formSearchCust.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formSearchCust.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddConsultation.Designer.vb">
+      <DependentUpon>frmAddConsultation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddConsultation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAmountMadebydate.Designer.vb">
+      <DependentUpon>FrmAmountMadebydate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAmountMadebydate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmamountMadebydaview1.Designer.vb">
+      <DependentUpon>FrmamountMadebydaview1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmamountMadebydaview1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAppointment.Designer.vb">
+      <DependentUpon>frmAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAppointmentDateView.Designer.vb">
+      <DependentUpon>FrmAppointmentDateView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAppointmentDateView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChooseDoctor.Designer.vb">
+      <DependentUpon>frmChooseDoctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChooseDoctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultation.Designer.vb">
+      <DependentUpon>frmConsultation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDates.Designer.vb">
+      <DependentUpon>frmDates.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNoOfCashAndMedicalaid.Designer.vb">
+      <DependentUpon>FrmNoOfCashAndMedicalaid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNoOfCashAndMedicalaid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNoOfMedandCashDate.Designer.vb">
+      <DependentUpon>FrmNoOfMedandCashDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNoOfMedandCashDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPatientOwingDate.Designer.vb">
+      <DependentUpon>FrmPatientOwingDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPatientOwingDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployee.Designer.vb">
+      <DependentUpon>FrmEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeePrivacy.Designer.vb">
+      <DependentUpon>frmEmployeePrivacy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeePrivacy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeeUpdateInformayion.Designer.vb">
+      <DependentUpon>frmEmployeeUpdateInformayion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeUpdateInformayion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmForgot.Designer.vb">
+      <DependentUpon>frmForgot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmForgot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMedication.Designer.vb">
+      <DependentUpon>frmMedication.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMedication.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewPassword.Designer.vb">
+      <DependentUpon>frmNewPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPatientAdd.Designer.vb">
+      <DependentUpon>frmPatientAdd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPatientAdd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPatientOwing.Designer.vb">
+      <DependentUpon>FrmPatientOwing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPatientOwing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayment.Designer.vb">
+      <DependentUpon>frmPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPaymentChart.Designer.vb">
+      <DependentUpon>FrmPaymentChart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPaymentChart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaymentReport.Designer.vb">
+      <DependentUpon>frmPaymentReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaymentReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReset.Designer.vb">
+      <DependentUpon>frmReset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.vb">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBooking.Designer.vb">
+      <DependentUpon>frmBooking.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBooking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPatient.Designer.vb">
+      <DependentUpon>frmPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTreatment.Designer.vb">
+      <DependentUpon>frmTreatment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTreatment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTreatmentReport.Designer.vb">
+      <DependentUpon>frmTreatmentReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTreatmentReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdatePatient.Designer.vb">
+      <DependentUpon>frmUpdatePatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdatePatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewAllEmployee.Designer.vb">
+      <DependentUpon>frmViewAllEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewAllEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmViewAppointment.Designer.vb">
+      <DependentUpon>FrmViewAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmViewAppointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewAppoitment.Designer.vb">
+      <DependentUpon>frmViewAppoitment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewAppoitment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewEmployee.Designer.vb">
+      <DependentUpon>frmViewEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmViewMedication.Designer.vb">
+      <DependentUpon>FrmViewMedication.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmViewMedication.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewPatient.Designer.vb">
+      <DependentUpon>frmViewPatient.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewPatient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewPaymentForm.Designer.vb">
+      <DependentUpon>frmViewPaymentForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewPaymentForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewPaymentReport.Designer.vb">
+      <DependentUpon>frmViewPaymentReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewPaymentReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewReportPayment.Designer.vb">
+      <DependentUpon>frmViewReportPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewReportPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmViewTreatment.Designer.vb">
+      <DependentUpon>FrmViewTreatment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmViewTreatment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.vb">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormDoctor.Designer.vb">
+      <DependentUpon>MainFormDoctor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainFormDoctor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormManager.Designer.vb">
+      <DependentUpon>MainFormManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainFormManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="McKelviSurgDBDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>McKelviSurgDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="McKelviSurgDBDataSet.vb">
+      <DependentUpon>McKelviSurgDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MedicationClass.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MainForm.designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderLineClass.vb" />
+    <Compile Include="PatientClass.vb" />
+    <Compile Include="PatientView.Designer.vb">
+      <DependentUpon>PatientView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PatientView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentClass.vb" />
+    <Compile Include="POClass.vb" />
+    <Compile Include="PrescriptionClass.vb" />
+    <Compile Include="PurchaseOrderClass.vb" />
+    <Compile Include="RegularPatients.Designer.vb">
+      <DependentUpon>RegularPatients.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegularPatients.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\SupplierClass.vb" />
+    <Compile Include="TreatmentClass.vb" />
+    <Compile Include="viewMedication.Designer.vb">
+      <DependentUpon>viewMedication.vb</DependentUpon>
+    </Compile>
+    <Compile Include="viewMedication.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewPatientAppointment.Designer.vb">
+      <DependentUpon>viewPatientAppointment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="viewPatientAppointment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="amountMadebydate.rdlc" />
+    <EmbeddedResource Include="apoint.rdlc" />
+    <EmbeddedResource Include="app.resx">
+      <DependentUpon>app.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cus.resx">
+      <DependentUpon>cus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeView.resx">
+      <DependentUpon>EmployeeView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSearchCust.resx">
+      <DependentUpon>formSearchCust.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddConsultation.resx">
+      <DependentUpon>frmAddConsultation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAmountMadebydate.resx">
+      <DependentUpon>FrmAmountMadebydate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmamountMadebydaview1.resx">
+      <DependentUpon>FrmamountMadebydaview1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAppointment.resx">
+      <DependentUpon>frmAppointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAppointmentDateView.resx">
+      <DependentUpon>FrmAppointmentDateView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChooseDoctor.resx">
+      <DependentUpon>frmChooseDoctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultation.resx">
+      <DependentUpon>frmConsultation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDates.resx">
+      <DependentUpon>frmDates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNoOfCashAndMedicalaid.resx">
+      <DependentUpon>FrmNoOfCashAndMedicalaid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNoOfMedandCashDate.resx">
+      <DependentUpon>FrmNoOfMedandCashDate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPatientOwingDate.resx">
+      <DependentUpon>FrmPatientOwingDate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployee.resx">
+      <DependentUpon>FrmEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployeePrivacy.resx">
+      <DependentUpon>frmEmployeePrivacy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployeeUpdateInformayion.resx">
+      <DependentUpon>frmEmployeeUpdateInformayion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmForgot.resx">
+      <DependentUpon>frmForgot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMedication.resx">
+      <DependentUpon>frmMedication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewPassword.resx">
+      <DependentUpon>frmNewPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPatientAdd.resx">
+      <DependentUpon>frmPatientAdd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPatientOwing.resx">
+      <DependentUpon>FrmPatientOwing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPayment.resx">
+      <DependentUpon>frmPayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPaymentChart.resx">
+      <DependentUpon>FrmPaymentChart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaymentReport.resx">
+      <DependentUpon>frmPaymentReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReset.resx">
+      <DependentUpon>frmReset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBooking.resx">
+      <DependentUpon>frmBooking.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPatient.resx">
+      <DependentUpon>frmPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTreatment.resx">
+      <DependentUpon>frmTreatment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTreatmentReport.resx">
+      <DependentUpon>frmTreatmentReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdatePatient.resx">
+      <DependentUpon>frmUpdatePatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewAllEmployee.resx">
+      <DependentUpon>frmViewAllEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmViewAppointment.resx">
+      <DependentUpon>FrmViewAppointment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewAppoitment.resx">
+      <DependentUpon>frmViewAppoitment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewEmployee.resx">
+      <DependentUpon>frmViewEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmViewMedication.resx">
+      <DependentUpon>FrmViewMedication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewPatient.resx">
+      <DependentUpon>frmViewPatient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewPaymentForm.resx">
+      <DependentUpon>frmViewPaymentForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewPaymentReport.resx">
+      <DependentUpon>frmViewPaymentReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewReportPayment.resx">
+      <DependentUpon>frmViewReportPayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmViewTreatment.resx">
+      <DependentUpon>FrmViewTreatment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFormDoctor.resx">
+      <DependentUpon>MainFormDoctor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFormManager.resx">
+      <DependentUpon>MainFormManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoOfcash.rdlc" />
+    <EmbeddedResource Include="NoofServicebydate.rdlc" />
+    <EmbeddedResource Include="PatientOwing.rdlc" />
+    <EmbeddedResource Include="PatientView.resx">
+      <DependentUpon>PatientView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegularPatients.resx">
+      <DependentUpon>RegularPatients.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptApoint.rdlc" />
+    <EmbeddedResource Include="rptAppointmentDate.rdlc" />
+    <EmbeddedResource Include="rptMedication.rdlc" />
+    <EmbeddedResource Include="rptPatient.rdlc" />
+    <EmbeddedResource Include="rptPayment.rdlc" />
+    <EmbeddedResource Include="rptViewEmployee.rdlc" />
+    <EmbeddedResource Include="viewMedication.resx">
+      <DependentUpon>viewMedication.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewPatientAppointment.resx">
+      <DependentUpon>viewPatientAppointment.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="crpViewEmployee.mht" />
+    <None Include="McKelviSurgDBDataSet.xsc">
+      <DependentUpon>McKelviSurgDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="McKelviSurgDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>McKelviSurgDBDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="McKelviSurgDBDataSet.xss">
+      <DependentUpon>McKelviSurgDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dr Batubenga End User BookPDF.pdf" />
+    <None Include="Resources\surgeryfavorite3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\surgery2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\McKelvi.png" />
+    <None Include="Resources\images %2833%29.jpg" />
+    <None Include="Resources\images %2832%29.jpg" />
+    <None Include="Resources\Create.png" />
+    <None Include="Resources\Create Patient.png" />
+    <None Include="Resources\Create Employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2834%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addemployee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addpatient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\consultation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medication.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patientregistration.png" />
+    <None Include="Resources\employeeRegistration.png" />
+    <None Include="Resources\createpatient.png" />
+    <None Include="Resources\createemployee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundtwo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dr Batubenga Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogOut.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MedicationBTN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patientBTN.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PaymentBTN.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TreatmentBTN.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WindowsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AppointmentBTN.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConsultationBTN.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmployeeBTN.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\File.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="McKelviSurgDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="McKelviSurgDB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>McKelviSurgDB.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

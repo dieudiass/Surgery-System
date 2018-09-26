@@ -1,0 +1,324 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+McKelviSurgery
+</name>
+</assembly>
+<members>
+<member name="P:McKelviSurgery.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.about">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.addemployee">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.addpatient">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.appointment">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.AppointmentBTN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.backgroundone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.backgroundtwo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.consultation">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.ConsultationBTN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.createemployee">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.createpatient">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.Dr_Batubenga_End_User_BookPDF">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.Dr_Batubenga_Logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.Dr_Batubenga_Logo1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.EmployeeBTN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.File">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.fileIcon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.help">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.LogOut">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.McKelvi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.medication">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.MedicationBTN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.patientBTN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.payment">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.PaymentBTN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.report">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.report1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.TreatmentBTN">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.windows">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:McKelviSurgery.My.Resources.Resources.WindowsIcon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:McKelviSurgery.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblAppointmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblConsultationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblDiseasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblEmployeeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblMedicationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblPatientDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblPaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblTreatmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblTreatmentLineDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblAppointmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblConsultationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblDiseasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblEmployeeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblMedicationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblPatientRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblPaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblTreatmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblTreatmentLineRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblAppointmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblConsultationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblDiseasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblEmployeeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblMedicationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblPatientRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblPaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblTreatmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet.tblTreatmentLineRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.tblAppointmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.tblConsultationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.tblDiseasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.tblEmployeeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.tblMedicationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.tblPatientTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.tblPaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.tblTreatmentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.tblTreatmentLineTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(McKelviSurgery.McKelviSurgDBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(McKelviSurgery.McKelviSurgDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(McKelviSurgery.McKelviSurgDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.TableAdapterManager.UpdateAll(McKelviSurgery.McKelviSurgDBDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:McKelviSurgery.McKelviSurgDBDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,132 @@
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.exe.config
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.exe
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.pdb
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.xml
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.LOGIN.resources
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.Resources.resources
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.exe
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.xml
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.pdb
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.FRMSPLASH.resources
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmBooking.resources
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmPatient.resources
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmPayment.resources
+C:\Users\Jeane\documents\visual studio 2010\Projects\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.MainForm.resources
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.exe.config
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.exe
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.xml
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.pdb
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.exe
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.pdb
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.xml
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmPayment.resources
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmSplash.resources
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmBooking.resources
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmPatient.resources
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.LOGIN.resources
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.Resources.resources
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.MainForm.resources
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.vbproj.GenerateResource.Cache
+C:\Users\acer\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.FrmEmployee.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.exe.config
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.exe
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.xml
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.pdb
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.pdb
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.xml
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.FrmEmployee.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmPayment.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmSplash.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmBooking.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmPatient.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.LOGIN.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.Resources.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.MainForm.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgDB.mdf
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgDB_log.ldf
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.vbproj.GenerateResource.Cache
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmViewEmployee.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmViewPatient.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmViewAllEmployee.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmEmployeeUpdateInformayion.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.vbprojResolveAssemblyReference.cache
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\RdlCompile.cache
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmAppointment.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmEmployeePrivacy.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmViewAppoitment.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmPatientAdd.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.EmployeeView.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.PatientView.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.app.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.cus.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.formSearchCust.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmConsultation.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.viewPatientAppointment.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmMedication.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmTreatment.resources
+C:\Users\Eolykab\Desktop\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.vbproj.ResolveComReference.cache
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.exe.config
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.exe
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.pdb
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\bin\Debug\McKelviSurgery.xml
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.vbprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.app.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.cus.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.EmployeeView.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.formSearchCust.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmAddConsultation.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmAppointment.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmChooseDoctor.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmConsultation.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.FrmEmployee.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmEmployeePrivacy.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmEmployeeUpdateInformayion.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmMedication.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmPatientAdd.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmPayment.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmSplash.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmBooking.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmPatient.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmTreatment.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmUpdatePatient.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmViewAllEmployee.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmViewAppoitment.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmViewEmployee.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmViewPatient.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmViewPaymentForm.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmViewPaymentReport.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.LOGIN.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.Resources.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.MainForm.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.PatientView.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.RegularPatients.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.viewMedication.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.viewPatientAppointment.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.vbproj.GenerateResource.Cache
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\RdlCompile.cache
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\RdlCompile.compiled
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.exe
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.xml
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.pdb
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmAbout.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmAppointmentDateView.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmDates.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmForgot.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmNewPassword.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmReset.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.FrmViewMedication.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.frmViewReportPayment.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.FrmViewTreatment.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.MainFormDoctor.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.MainFormManager.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.FrmPaymentChart.resources
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\Interop.AcroPDFLib.dll
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.vbproj.ResolveComReference.cache
+C:\Users\acer\Desktop\OurMcKelvi\McKelviSurgery\McKelviSurgery\obj\x86\Debug\McKelviSurgery.FrmUserManual.resources
